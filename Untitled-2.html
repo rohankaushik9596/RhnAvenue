@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our curated collection of featured Amazon products with exclusive deals and reviews.">
+    <title>Featured Products - Amazon Deals Hub</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0c10;
+            color: #d4d4d4;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(90deg, #1a1a1a, #333333);
+            color: #fff;
+            padding: 20px 50px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .products-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .products-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #f0b429;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .product-card {
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-card h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+            color: #f0b429;
+        }
+
+        .product-card p {
+            font-size: 1em;
+            margin: 10px 0;
+            color: #ccc;
+        }
+
+        .product-card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 25px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background 0.3s;
+        }
+
+        .product-card a:hover {
+            background: #555;
+        }
+
+        footer {
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            letter-spacing: 1px;
+        }
+
+        footer a {
+            color: #f0b429;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RISPO</h1>
+        <nav>
+            <a href="C:\Users\om\Untitled-1.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="products-section">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product Name 1</h3>
+                <p>Short description of the product highlighting its features.</p>
+                <a href="#">View Deal</a>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product Name 2</h3>
+                <p>Short description of the product highlighting its features.</p>
+                <a href="#">View Deal</a>
+            </div>
+            <div class="product-card">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product Name 3</h3>
+                <p>Short description of the product highlighting its features.</p>
+                <a href="#">View Deal</a>
+            </div>
+            <div class="product-card">
+                <img src="product4.jpg" alt="Product 4">
+                <h3>Product Name 4</h3>
+                <p>Short description of the product highlighting its features.</p>
+                <a href="#">View Deal</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 RISPO. All rights reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
